@@ -1,5 +1,6 @@
 name: 02 - Workflow Events
 
+
 on: 
   push:
   pull_request:
@@ -13,5 +14,4 @@ jobs:
     steps: 
       - name: Show the trigger
         run: echo "I've bee triggered by a(n) ${{ github.event_name }} event."
-
-
+      
